@@ -21,7 +21,11 @@ function CTA() {
                 </button>
               </Link>
             </div>
-            <Image src={objectPNG} className={styles.section_object}></Image>
+            <Image
+              src={objectPNG}
+              className={styles.section_object}
+              alt="3D_Ball_Image"
+            ></Image>
           </div>
         </div>
       </section>

@@ -26,8 +26,12 @@ function slider() {
         <SwiperSlide>
           <div className={styles.service_cards_area}>
             <div className={styles.service_cards}>
-              <Image className={styles.card_icon} src={examplePng}></Image>
-              <h1>Web Dev's</h1>
+              <Image
+                className={styles.card_icon}
+                src={examplePng}
+                alt="service_card_icon"
+              ></Image>
+              <h1>Web Dev&apos;s</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
                 sunt enim quaerat quis quae, facere facilis laudantium excepturi
@@ -39,8 +43,12 @@ function slider() {
         <SwiperSlide>
           <div className={styles.service_cards_area}>
             <div className={styles.service_cards}>
-              <Image className={styles.card_icon} src={examplePng}></Image>
-              <h1>Web Dev's</h1>
+              <Image
+                className={styles.card_icon}
+                src={examplePng}
+                alt="service_card_icon"
+              ></Image>
+              <h1>Web Dev&apos;s</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
                 sunt enim quaerat quis quae, facere facilis laudantium excepturi
@@ -52,8 +60,12 @@ function slider() {
         <SwiperSlide>
           <div className={styles.service_cards_area}>
             <div className={styles.service_cards}>
-              <Image className={styles.card_icon} src={examplePng}></Image>
-              <h1>Web Dev's</h1>
+              <Image
+                className={styles.card_icon}
+                alt="service_card_icon"
+                src={examplePng}
+              ></Image>
+              <h1>Web Dev&apos;s</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
                 sunt enim quaerat quis quae, facere facilis laudantium excepturi
@@ -65,8 +77,12 @@ function slider() {
         <SwiperSlide>
           <div className={styles.service_cards_area}>
             <div className={styles.service_cards}>
-              <Image className={styles.card_icon} src={examplePng}></Image>
-              <h1>Web Dev's</h1>
+              <Image
+                className={styles.card_icon}
+                alt="service_card_icon"
+                src={examplePng}
+              ></Image>
+              <h1>Web Dev&apos;s</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
                 sunt enim quaerat quis quae, facere facilis laudantium excepturi
@@ -78,8 +94,12 @@ function slider() {
         <SwiperSlide>
           <div className={styles.service_cards_area}>
             <div className={styles.service_cards}>
-              <Image className={styles.card_icon} src={examplePng}></Image>
-              <h1>Web Dev's</h1>
+              <Image
+                className={styles.card_icon}
+                alt="service_card_icon"
+                src={examplePng}
+              ></Image>
+              <h1>Web Dev&apos;s</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
                 sunt enim quaerat quis quae, facere facilis laudantium excepturi

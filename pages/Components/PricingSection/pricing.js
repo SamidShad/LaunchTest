@@ -14,6 +14,7 @@ function Pricing() {
               <div className={styles.pricing_card_header}>
                 <Image
                   className={styles.pricing_card_logo}
+                  alt="weblifix_logo"
                   src={pricingCardLogo}
                 ></Image>
                 <h2>Basic</h2>
@@ -36,7 +37,7 @@ function Pricing() {
               </div>
               <Link href="/contact">
                 <button className={`btn ${styles.pricing_card_btn}`}>
-                  Let's Start
+                  Let&apos;s Start
                 </button>
               </Link>
             </div>
@@ -44,6 +45,7 @@ function Pricing() {
               <div className={styles.pricing_card_header}>
                 <Image
                   className={styles.pricing_card_logo}
+                  alt="weblifix_logo"
                   src={pricingCardLogo}
                 ></Image>
                 <h2>Pro</h2>
@@ -66,7 +68,7 @@ function Pricing() {
               </div>
               <Link href="/contact">
                 <button className={`btn ${styles.pricing_card_btn}`}>
-                  Let's Start
+                  Let&apos;s Start
                 </button>
               </Link>
             </div>
@@ -75,6 +77,7 @@ function Pricing() {
                 <Image
                   className={styles.pricing_card_logo}
                   src={pricingCardLogo}
+                  alt="weblifix_logo"
                 ></Image>
                 <h2>Epic</h2>
               </div>
@@ -96,7 +99,7 @@ function Pricing() {
               </div>
               <Link href="/">
                 <button className={`btn ${styles.pricing_card_btn}`}>
-                  Let's Start
+                  Let&apos;s Start
                 </button>
               </Link>
             </div>

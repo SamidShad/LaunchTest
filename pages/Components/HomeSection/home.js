@@ -22,7 +22,7 @@ function Home() {
               <h1>We Create</h1>
               <h1>Solutions</h1>
               <div className={styles.pop_up_text_container}>
-                <span>Don't worry about</span>
+                <span>Don&apos;t worry about</span>
                 <span>
                   <TextTransition springConfig={presets.wobbly}>
                     {TEXTS[index % TEXTS.length]}

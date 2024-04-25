@@ -17,7 +17,11 @@ function OurWorks() {
         <div className={styles.our_works_area}>
           <div className={styles.our_works_container}>
             <div className={styles.cards}>
-              <Image className={styles.card_image} src={TempMocImage3}></Image>
+              <Image
+                className={styles.card_image}
+                alt="work_showcase_image"
+                src={TempMocImage3}
+              ></Image>
               <div className={styles.card_footer}>
                 <div>
                   <h2>Ollar Media</h2>
@@ -29,7 +33,11 @@ function OurWorks() {
               </div>
             </div>
             <div className={styles.cards}>
-              <Image className={styles.card_image} src={TempMocImage4}></Image>
+              <Image
+                className={styles.card_image}
+                alt="work_showcase_image"
+                src={TempMocImage4}
+              ></Image>
               <div className={styles.card_footer}>
                 <div>
                   <h2>Ollar Media</h2>
@@ -41,7 +49,11 @@ function OurWorks() {
               </div>
             </div>
             <div className={styles.cards}>
-              <Image className={styles.card_image} src={TempMocImage5}></Image>
+              <Image
+                className={styles.card_image}
+                alt="work_showcase_image"
+                src={TempMocImage5}
+              ></Image>
               <div className={styles.card_footer}>
                 <div>
                   <h2>Ollar Media</h2>
@@ -53,7 +65,11 @@ function OurWorks() {
               </div>
             </div>
             <div className={styles.cards}>
-              <Image className={styles.card_image} src={TempMocImage2}></Image>
+              <Image
+                className={styles.card_image}
+                alt="work_showcase_image"
+                src={TempMocImage2}
+              ></Image>
               <div className={styles.card_footer}>
                 <div>
                   <h2>Ollar Media</h2>

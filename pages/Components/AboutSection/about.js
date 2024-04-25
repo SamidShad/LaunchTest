@@ -11,6 +11,7 @@ function About() {
           <div className={styles.about_container}>
             <Image
               className={styles.about_image}
+              alt="About_Image"
               draggable={false}
               src={aboutImage}
             ></Image>
