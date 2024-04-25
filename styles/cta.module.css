@@ -1,0 +1,155 @@
+.cta_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta_section_container {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 10px;
+}
+
+.section_text_container {
+  margin-left: 25px;
+}
+
+.section_text_container h1 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 150px;
+  margin-bottom: 20px;
+  line-height: 140px;
+}
+
+.section_text_container div {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.section_text_container p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.available_circle {
+  background-color: #00ff29;
+  width: 50px;
+  margin-right: 10px;
+  height: 50px;
+  border-radius: 60px;
+}
+
+.cta_section_btn {
+  margin-top: 35px;
+  font-size: 80px;
+}
+
+.section_object {
+  width: 600px;
+  height: 600px;
+}
+
+@media only screen and (max-width: 1195px) {
+  .section_text_container h1 {
+    max-width: 500px;
+    width: 100%;
+    font-size: 130px;
+    line-height: 120px;
+  }
+
+  .section_text_container p {
+    font-size: 20px;
+  }
+
+  .available_circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cta_section_btn {
+    font-size: 50px;
+  }
+
+  .section_object {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+  .section_text_container h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .section_text_container p {
+    font-size: 18px;
+  }
+
+  .cta_section_btn {
+    font-size: 35px;
+  }
+
+  .section_object {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .cta_section_container {
+    flex-direction: column-reverse;
+  }
+
+  .section_text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section_text_container h1 {
+    font-size: 130px;
+    line-height: 120px;
+    text-align: center;
+  }
+
+  .available_circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section_text_container p {
+    font-size: 18px;
+  }
+
+  .cta_section_btn {
+    font-size: 35px;
+  }
+
+  .section_object {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .section_text_container h1 {
+    font-size: 100px;
+    line-height: 95px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .section_text_container h1 {
+    font-size: 80px;
+    width: 100%;
+    line-height: 85px;
+  }
+}

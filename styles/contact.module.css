@@ -1,0 +1,245 @@
+.contact_page_header_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_page_header_contianer {
+  max-width: 1500px;
+  width: 100%;
+  margin: 120px 30px 50px 30px;
+}
+
+.contact_page_header_contianer h1 {
+  color: white;
+  font-size: 130px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.contact_page_header_contianer p {
+  color: white;
+  font-size: 20px;
+  max-width: 500px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact_page_body_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_page_body_contianer {
+  max-width: 1550px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_card {
+  background: #1e1e1e94;
+  backdrop-filter: blur(15.9px);
+  -webkit-backdrop-filter: blur(15.9px);
+  margin: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact_card_sides {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_card_side_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_card_side_1 input {
+  background-color: #333333;
+  color: white;
+  width: 500px;
+  border-radius: 5px;
+  outline: none;
+  margin: 20px;
+  border: none;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.contact_card_side_1 span {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.package_area {
+  display: flex;
+}
+
+.package_area div {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+}
+
+.package_area div label {
+  background-color: #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.package_area div input[type="radio"] {
+  display: none;
+}
+
+.package_area div input[type="radio"]:checked + label {
+  background-color: white;
+  color: black;
+}
+
+.contact_card_side_1,
+.contact_card_side_2 {
+  margin: 30px;
+}
+
+.contact_card_side_2 textarea {
+  background-color: #333333;
+  color: white;
+  width: 700px;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  border: none;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.contact_card_btn {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1515px) {
+  .contact_card_side_2 textarea {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1415px) {
+  .contact_card_side_2 textarea {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .contact_card_side_2 textarea {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1295px) {
+  .contact_page_header_contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact_page_header_contianer p {
+    text-align: center;
+  }
+
+  .contact_card_sides {
+    flex-direction: column;
+  }
+  .contact_card_side_2 textarea {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .contact_card_side_1,
+  .contact_card_side_2 {
+    margin: 15px;
+  }
+
+  .contact_card_side_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_card_side_1 input {
+    width: 400px;
+  }
+
+  .package_area div label {
+    font-size: 18px;
+    padding: 10px 40px;
+  }
+
+  .contact_card_side_2 textarea {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .contact_page_header_contianer h1 {
+    font-size: 70px;
+  }
+  .contact_page_header_contianer p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contact_card_side_1 input {
+    width: 350px;
+    font-size: 18px;
+  }
+
+  .package_area div label {
+    padding: 10px 30px;
+  }
+
+  .contact_card_side_2 textarea {
+    font-size: 18px;
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .contact_card_side_1 input {
+    width: 250px;
+  }
+
+  .package_area div {
+    margin: 10px;
+  }
+
+  .package_area div label {
+    padding: 10px 25px;
+    margin-top: 10px;
+  }
+
+  .contact_card_side_2 textarea {
+    width: 250px;
+  }
+}

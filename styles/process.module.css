@@ -1,0 +1,112 @@
+.timeline_section {
+  padding: 100px 15px;
+}
+
+.timeline_section h1 {
+  color: white;
+  margin-top: 130px;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.timeline_area {
+  margin-top: 70px;
+}
+
+.timeline_items {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.timeline_items::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #212121;
+  left: calc(50% - 1px);
+}
+.timeline_item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+.timeline_item:last-child {
+  margin-bottom: 0;
+}
+.timeline_item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+.timeline_item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+.timeline_dot {
+  height: 16px;
+  width: 16px;
+  background-color: #ffffff;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline_content {
+  background: rgba(39, 39, 39, 0.35);
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(39, 39, 39, 0.99);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.timeline_content h3 {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.timeline_content p {
+  color: #b4b4b4;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@media (max-width: 935px) {
+  .timeline_items::before {
+    left: 7px;
+  }
+  .timeline_item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+  .timeline_item:nth-child(odd),
+  .timeline_item:nth-child(even) {
+    padding-left: 37px;
+  }
+  .timeline_dot {
+    left: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .timeline_content h3 {
+    font-size: 30px;
+  }
+  .timeline_content p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .timeline_section h1 {
+    font-size: 50px;
+  }
+}
